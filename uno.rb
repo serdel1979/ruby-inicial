@@ -23,4 +23,9 @@ puts "soy un objeto "+ self.to_s
 puts "5 mod 2 es igual a #{5 % 2}"
 puts "5 mod -2 es igual a #{5 % -2}"
 #asento grave es un string al que se le pasa un comando del SO
-puts `ruby uno.rb`
+s = 'hello'
+puts s.class
+x = 7.5
+puts x.class
+x= 8
+puts x.class
