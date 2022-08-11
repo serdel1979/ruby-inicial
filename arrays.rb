@@ -20,3 +20,23 @@ end
 puts "obtengo 2 elementos del arreglo"
 procesado = procesa_vector(nombres.sort)
 puts procesado.class
+
+puts "calculo en array"
+arreglo = [950,50,23,40,20,65,60]
+
+total = 0
+arreglo.each do |val| 
+    total = total + val
+end 
+
+def esPar(num)
+    return (num % 2 == 0)
+end
+
+puts "el total del arreglo es #{total}"
+
+arreglo.each do |val|
+    if esPar(val) 
+        puts "el #{val} es par" 
+    end
+end
